@@ -1,0 +1,70 @@
+:root{
+    --color-azul: #213a8f;
+    --color-amarillo: #fbba00;
+    --color-blanco: #ffffff;
+  }
+
+.header_contacto{
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url('../img/back_contacto.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 85vh;
+}
+
+.map_container{
+    background: rgb(251,186,0);
+    background: linear-gradient(-90deg, rgba(251,186,0,1) 0%, rgba(242,160,65,1) 100%);
+    height: 450px;
+    border-radius: 10px;
+    position: relative;
+    margin-top: 170px;
+}
+
+.map{
+    padding: 25px;
+    position: absolute; 
+    top: -150; 
+    left: 0; 
+    width: 100%;
+}
+
+.contacto{
+    transform: translateY(50px);
+    background: rgb(36,68,196);
+    background: linear-gradient(180deg, rgba(36,68,196,1) 0%, rgba(38,58,138,1) 100%);
+    border-radius: 10px;
+    padding: 50px 50px 25px 50px;
+    margin-bottom: 100px;
+}
+
+.logo_contacto{
+    background-color: var(--color-blanco);
+    border-radius: 10px;
+    padding: 35px;
+}
+
+.formulario{
+    width: 100%;
+    padding: 50px 50px 25px 50px;
+}
+
+@media (max-width: 991px){
+    .formulario{
+        padding: 0px;
+    }
+
+    .contacto{
+        padding: 50px 30px 25px 30px;
+    }
+}
+
+@media (min-width: 574px){
+    .formulario{
+        padding: 0px;
+    }
+
+    .contacto{
+        padding: 30px 30px 25px 30px;
+    }
+}

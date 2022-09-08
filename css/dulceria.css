@@ -1,0 +1,84 @@
+.header_dulceria{
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url('../img/back_dulceria.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 85vh;
+}
+
+.palomitas_mostrador{
+    background-image: url('../img/dulceria_moviecenter_empleado.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    height: 450px;
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.centrado{
+    position: absolute;
+    top: -150px;
+    padding: 60px;
+}
+
+.bg_azul_{
+    background: rgb(36,68,196);
+    background: linear-gradient(180deg, rgba(36,68,196,1) 0%, rgba(38,58,138,1) 100%);
+    border-radius: 10px;
+    height: 450px;
+}
+
+.bg_cafe{
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #6D522B 0%, #482E08 100%);
+    border-radius: 10px;
+    height: 450px;
+  }
+
+.caffito_mostrador{
+    background-image: url('../img/caffito_dulceria_empleado.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    height: 450px;
+}
+
+@media (max-width: 1199px){
+    .palomitas_mostrador, .bg_azul_{
+        height: 375px;
+    }
+}
+
+@media (max-width: 991px){
+    .palomitas_mostrador, .bg_azul_{
+        height: 475px;
+    }
+}
+
+@media (max-width: 767px){
+    .palomitas_mostrador, .bg_azul_{
+        height: 400px;
+    }
+}
+
+@media (max-width: 575px){
+    .palomitas_mostrador, .bg_azul_{
+        height: 350px;
+    }
+}
+
+@media (max-width: 450px){
+    .centrado{
+        top: -120px;
+    }
+    .palomitas_mostrador, .bg_azul_{
+        height: 375px;
+    }
+}

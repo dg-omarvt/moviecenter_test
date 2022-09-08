@@ -1,0 +1,30 @@
+.header_conocenos{
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url('../img/back_conocenos.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 85vh;
+}
+
+.back_atencion{
+    background-image: url('../img/moviecenter_atencion_cliente.jpg');
+    background-position: 0px -217px;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 550px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.sala_back{
+    background-image: url('../img/sala_pelicula.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+@media (max-width: 991px) {
+    .back_atencion{
+        background-position: bottom center;
+    }
+}
