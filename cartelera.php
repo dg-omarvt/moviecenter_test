@@ -174,14 +174,53 @@
         </div>
     </div>
 
+<div class="container_fluid prox_estrenos py-5 px-4">
     <div class="container">
-        <div class="row">
-            <h1>Próximos Estrenos</h1>
+        <div class="row d-flex justify-content-center">
+            <h1 class="text-center mb-5">Próximos Estrenos</h1>
 
-           
+            <div class="col-sd-10 col-md-10 col-lg-10 back_gradient_amarillo py-5 px-3">
+                <div class="container text-center">
+                    <div class="row row-cols-2 row-cols-lg-4 g-4 g-lg-4">
+                        <div class="col">
+                            <div>
+                                <div id="padre">
+                                    <img id="content_div_one_photo" class="img-fluid card-img img_cartelera" src="img/tren_bala.jpg">
+                                    <div class="card-title">Gato</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div>
+                                <div id="padre">
+                                    <img id="content_div_one_photo" class="img-fluid card-img img_cartelera" src="img/tren_bala.jpg">
+                                    <div class="card-title">Gato</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div>
+                                <div id="padre">
+                                    <img id="content_div_one_photo" class="img-fluid card-img img_cartelera" src="img/tren_bala.jpg">
+                                    <div class="card-title">Gato</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div>
+                                <div id="padre">
+                                    <img id="content_div_one_photo" class="img-fluid card-img img_cartelera" src="img/tren_bala.jpg">
+                                    <div class="card-title">Gato</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
     </div>
+</div>
 
     <?php include('footer.php'); ?>
 </div>

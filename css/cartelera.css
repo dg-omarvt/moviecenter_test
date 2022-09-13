@@ -44,3 +44,22 @@
     margin-left: 5px;
     width: auto;
 }
+
+.prox_estrenos{
+    background-image: url('../img/fondo_mc_pasillo.jpg');
+}
+
+#content_div_one_photo {
+    border-radius: 10px;
+  }
+  
+  #padre {
+    position: relative;    /* para poder posicionar el texto de forma absoluta */
+    display: inline-block; /* para que solo ocupe el ancho de la imagen */
+  }
+  
+  .card-title {
+    position: absolute;    /* posición absolute con respecto al padre */
+    bottom: 0;             /* posicionada en la esquina inferior derecha */
+    right: 1rem;
+  }
