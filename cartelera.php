@@ -174,43 +174,89 @@
         </div>
     </div>
 
-<div class="container_fluid prox_estrenos py-5 px-4">
+    <section id="demos">
+        <div class="row">
+            <div class="large-12 columns">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                    <h4>1</h4>
+                    </div>
+                    <div class="item">
+                    <h4>2</h4>
+                    </div>
+                    <div class="item">
+                    <h4>3</h4>
+                    </div>
+                    <div class="item">
+                    <h4>4</h4>
+                    </div>
+                    <div class="item">
+                    <h4>5</h4>
+                    </div>
+                    <div class="item">
+                    <h4>6</h4>
+                    </div>
+                    <div class="item">
+                    <h4>7</h4>
+                    </div>
+                    <div class="item">
+                    <h4>8</h4>
+                    </div>
+                    <div class="item">
+                    <h4>9</h4>
+                    </div>
+                    <div class="item">
+                    <h4>10</h4>
+                    </div>
+                    <div class="item">
+                    <h4>11</h4>
+                    </div>
+                    <div class="item">
+                    <h4>12</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container_fluid prox_estrenos py-5 px-4">
     <div class="container">
         <div class="row d-flex justify-content-center">
             <h1 class="text-center mb-5">Próximos Estrenos</h1>
 
-            <div class="col-sd-10 col-md-10 col-lg-10 back_gradient_amarillo py-5 px-3">
+            <div class="col-sd-10 col-md-10 col-lg-10 back_gradient_amarillo py-5 px-3 mb-5">
                 <div class="container text-center">
                     <div class="row row-cols-2 row-cols-lg-4 g-4 g-lg-4">
                         <div class="col">
-                            <div>
-                                <div id="padre">
-                                    <img id="content_div_one_photo" class="img-fluid card-img img_cartelera" src="img/tren_bala.jpg">
-                                    <div class="card-title">Gato</div>
+                            <div class="img_proxextrenos">
+                                <div class="wrap-texto">
+                                    <div class="txt_amarillo mb-2">RE Spider-Man: Sin Camino A Casa</div>
+                                    <div class="fecha_bco">18 de noviembre</div>
                                 </div>
                             </div>
                         </div>
                         <div class="col">
-                            <div>
-                                <div id="padre">
-                                    <img id="content_div_one_photo" class="img-fluid card-img img_cartelera" src="img/tren_bala.jpg">
-                                    <div class="card-title">Gato</div>
+                            <div class="img_proxextrenos">
+                                <div class="wrap-texto">
+                                    <div class="txt_amarillo mb-2">RE Spider-Man: Sin Camino A Casa</div>
+                                    <div class="fecha_bco">18 de noviembre</div>
                                 </div>
                             </div>
                         </div>
                         <div class="col">
-                            <div>
-                                <div id="padre">
-                                    <img id="content_div_one_photo" class="img-fluid card-img img_cartelera" src="img/tren_bala.jpg">
-                                    <div class="card-title">Gato</div>
+                            <div class="img_proxextrenos">
+                                <div class="wrap-texto">
+                                    <div class="txt_amarillo mb-2">RE Spider-Man: Sin Camino A Casa</div>
+                                    <div class="fecha_bco">18 de noviembre</div>
                                 </div>
                             </div>
                         </div>
                         <div class="col">
-                            <div>
-                                <div id="padre">
-                                    <img id="content_div_one_photo" class="img-fluid card-img img_cartelera" src="img/tren_bala.jpg">
-                                    <div class="card-title">Gato</div>
+                            <div class="img_proxextrenos">
+                                <div class="wrap-texto">
+                                    <div class="txt_amarillo mb-2">RE Spider-Man: Sin Camino A Casa</div>
+                                    <div class="fecha_bco">18 de noviembre</div>
                                 </div>
                             </div>
                         </div>
@@ -221,6 +267,5 @@
         </div>
     </div>
 </div>
-
     <?php include('footer.php'); ?>
 </div>

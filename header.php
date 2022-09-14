@@ -11,6 +11,13 @@
     <link href="css/dulceria.css" rel="stylesheet">
     <link href="css/cartelera.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
+
+    <!-- Owl Stylesheets -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    
+
     <script src="https://kit.fontawesome.com/a2a68bf40c.js" crossorigin="anonymous"></script>
     
   </head>
