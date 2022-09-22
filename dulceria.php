@@ -5,7 +5,7 @@
             <div class="my-5 text-center ">
                 <h1 class="h_txt_c">Dulceria</h1>
             </div>
-            <div class="mb-5 px-5 text-center col-lg-12">
+            <div class="px-5 text-center col-lg-12">
                 <h1><b>Sabores para disfrutar de tu película</b></h1>
                 <p class="mb-5 pb-5">Los mejores snacks para compartir y consentirte.</p>
             </div>
@@ -14,12 +14,12 @@
 
     <div class="container p-5">
         <div class="row">
-            <div class="col-lg-6 contenedor mb-5">
+            <div class="col-lg-6 contenedor_dulceria mb-5">
                 <div class="bg_azul_"></div>
-                <div class="centrado">
+                <div class="centrado_dulceria pb-5">
                     <img class="mb-4" src="img/dulceria_head.png" width="100%">
                     <h1 class="txt_amarillo"><b>Conoce nuestra dulcería</b></h1>
-                    <p class="pb-5">Tenemos los mejores productos para vivir una experiencia única en el cine.</p>
+                    <p>Tenemos los mejores productos para vivir una experiencia única en el cine.</p>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -54,15 +54,15 @@
             </div>
         </div>
     </div>
-    
-    <div class="container p-5">
+
+    <div class="container p-5 mb-5">
         <div class="row">
-            <div class="col-lg-6 contenedor mb-5">
+            <div class="col-lg-6 contenedor_dulceria mb-5">
                 <div class="bg_cafe"></div>
-                <div class="centrado">
+                <div class="centrado_dulceria">
                     <img class="mb-4" src="img/caffito_dulceria.png" width="100%">
                     <h1 class="txt_amarillo"><b>No te quedes con el antojo</b></h1>
-                    <p class="pb-5">En Caffito Express encontraras una rica variedad de postres que podrás comerte mientras disfrutas de tus estrenos favoritos.</p>
+                    <p>En Caffito Express encontraras una rica variedad de postres que podrás comerte mientras disfrutas de tus estrenos favoritos.</p>
                 </div>
             </div>
             <div class="col-lg-6">

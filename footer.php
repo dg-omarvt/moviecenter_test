@@ -4,10 +4,10 @@
             <div class="col-md-12 col-lg-6 ">
                 <nav class="pt-4 mt-3 align_l_c">
                     <a class="footer_nav p-1 " href="*">Inicio</a> 
-                    <a class="footer_nav p-1" href="*">Nosotros</a> 
-                    <a class="footer_nav p-1" href="*">Servicios</a> 
-                    <a class="footer_nav p-1" href="*">Portafolio</a> 
-                    <a class="footer_nav p-1" href="*">Contacto</a>
+                    <a class="footer_nav p-1" href="cartelera.php">Cartelera</a> 
+                    <a class="footer_nav p-1" href="dulceria-php">Dulcería</a> 
+                    <a class="footer_nav p-1" href="conocenos.php">Conócenos</a> 
+                    <a class="footer_nav p-1" href="contacto.php">Contacto</a>
                 </nav>
             </div>
             <div class="col-md-12 col-lg-6 py-3">
@@ -30,10 +30,6 @@
         </div>
     </div>
 </div>
-
-<!-- javascript -->
-<script src="js/jquery.min.js"></script>
-<script src="js/owl.carousel.js"></script>
 
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/menu.js"></script>

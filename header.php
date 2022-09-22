@@ -3,20 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contacto</title>
+    <title>Moviecenter</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/commons.css" rel="stylesheet">
     <link href="css/contacto.css" rel="stylesheet">
     <link href="css/conocenos.css" rel="stylesheet">
     <link href="css/dulceria.css" rel="stylesheet">
     <link href="css/cartelera.css" rel="stylesheet">
+    <link href="css/sinopsis.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
-
-    <!-- Owl Stylesheets -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/owl.theme.default.min.css">
-
-    
 
     <script src="https://kit.fontawesome.com/a2a68bf40c.js" crossorigin="anonymous"></script>
     

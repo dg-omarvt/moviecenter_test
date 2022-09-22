@@ -1,0 +1,22 @@
+.header_sinopsis{
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0)), url('../img/back_sinopsis.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 85vh;
+}
+
+.border_b{
+    border-bottom: 3px solid var(--color-blanco);
+    width: 100%;
+}
+
+.sinopsis_amarillo{
+    background-color: var(--color-amarillo);
+    color: var(--color-azul);
+    font-weight: bold;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px 25px;
+}

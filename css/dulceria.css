@@ -15,16 +15,18 @@
     height: 450px;
 }
 
-.contenedor{
+.contenedor_dulceria{
     position: relative;
     display: inline-block;
     text-align: center;
 }
 
-.centrado{
+.centrado_dulceria{
     position: absolute;
-    top: -150px;
-    padding: 60px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
 }
 
 .bg_azul_{

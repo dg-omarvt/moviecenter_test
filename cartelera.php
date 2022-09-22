@@ -53,7 +53,7 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <button type="submit" class="btn boton_amarillo_c mb-3">Ver tráiler <i class="fa-solid fa-angle-right"></i></button>
-                        <button type="submit" class="btn boton_blanco_c mb-3">Sinopsis <i class="fa-solid fa-angle-right"></i></button>
+                        <a href="sinopsis.php"><button type="submit" class="btn boton_blanco_c mb-3">Sinopsis <i class="fa-solid fa-angle-right"></i></button></a>
                     </div>
                     <div class="col-lg-5 align_r_c">
                         <p class="pt-3"><b>Compartir en: <i class="fa-brands fa-facebook-f"></i> <i class="fa-brands fa-twitter"></i> <i class="fa-sharp fa-solid fa-share-nodes"></i></b></p>
@@ -174,98 +174,52 @@
         </div>
     </div>
 
-    <section id="demos">
-        <div class="row">
-            <div class="large-12 columns">
-                <div class="owl-carousel owl-theme">
-                    <div class="item">
-                    <h4>1</h4>
-                    </div>
-                    <div class="item">
-                    <h4>2</h4>
-                    </div>
-                    <div class="item">
-                    <h4>3</h4>
-                    </div>
-                    <div class="item">
-                    <h4>4</h4>
-                    </div>
-                    <div class="item">
-                    <h4>5</h4>
-                    </div>
-                    <div class="item">
-                    <h4>6</h4>
-                    </div>
-                    <div class="item">
-                    <h4>7</h4>
-                    </div>
-                    <div class="item">
-                    <h4>8</h4>
-                    </div>
-                    <div class="item">
-                    <h4>9</h4>
-                    </div>
-                    <div class="item">
-                    <h4>10</h4>
-                    </div>
-                    <div class="item">
-                    <h4>11</h4>
-                    </div>
-                    <div class="item">
-                    <h4>12</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-
     <div class="container_fluid prox_estrenos py-5 px-4">
-    <div class="container">
-        <div class="row d-flex justify-content-center">
-            <h1 class="text-center mb-5">Próximos Estrenos</h1>
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <h1 class="text-center txt_amarillo mb-5"><b>Próximos Estrenos</b></h1>
 
-            <div class="col-sd-10 col-md-10 col-lg-10 back_gradient_amarillo py-5 px-3 mb-5">
-                <div class="container text-center">
-                    <div class="row row-cols-2 row-cols-lg-4 g-4 g-lg-4">
-                        <div class="col">
-                            <div class="img_proxextrenos">
-                                <div class="wrap-texto">
-                                    <div class="txt_amarillo mb-2">RE Spider-Man: Sin Camino A Casa</div>
-                                    <div class="fecha_bco">18 de noviembre</div>
+                <div class="col-sd-10 col-md-10 col-lg-10 back_gradient_amarillo py-5 px-3 mb-5">
+                    <div class="container text-center">
+                        <div class="row row-cols-2 row-cols-lg-4 g-4 g-lg-4">
+                            <div class="col">
+                                <div class="img_proxextrenos">
+                                    <div class="wrap-texto">
+                                        <div class="txt_amarillo mb-2">RE Spider-Man: Sin Camino A Casa</div>
+                                        <div class="fecha_bco">18 de noviembre</div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col">
-                            <div class="img_proxextrenos">
-                                <div class="wrap-texto">
-                                    <div class="txt_amarillo mb-2">RE Spider-Man: Sin Camino A Casa</div>
-                                    <div class="fecha_bco">18 de noviembre</div>
+                            <div class="col">
+                                <div class="img_proxextrenos">
+                                    <div class="wrap-texto">
+                                        <div class="txt_amarillo mb-2">RE Spider-Man: Sin Camino A Casa</div>
+                                        <div class="fecha_bco">18 de noviembre</div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col">
-                            <div class="img_proxextrenos">
-                                <div class="wrap-texto">
-                                    <div class="txt_amarillo mb-2">RE Spider-Man: Sin Camino A Casa</div>
-                                    <div class="fecha_bco">18 de noviembre</div>
+                            <div class="col">
+                                <div class="img_proxextrenos">
+                                    <div class="wrap-texto">
+                                        <div class="txt_amarillo mb-2">RE Spider-Man: Sin Camino A Casa</div>
+                                        <div class="fecha_bco">18 de noviembre</div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col">
-                            <div class="img_proxextrenos">
-                                <div class="wrap-texto">
-                                    <div class="txt_amarillo mb-2">RE Spider-Man: Sin Camino A Casa</div>
-                                    <div class="fecha_bco">18 de noviembre</div>
+                            <div class="col">
+                                <div class="img_proxextrenos">
+                                    <div class="wrap-texto">
+                                        <div class="txt_amarillo mb-2">RE Spider-Man: Sin Camino A Casa</div>
+                                        <div class="fecha_bco">18 de noviembre</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
-</div>
+
     <?php include('footer.php'); ?>
 </div>
